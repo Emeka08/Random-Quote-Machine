@@ -6,38 +6,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- link css -->
-    <link rel="stylesheet" href="/css/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     </head>
   <body>
     
-    <div class="quote-box">
+    <div id="quote-box">
         <div class="quote-text">
-        <i class="fa fa-quote-left"> </i><span id="text"></span>
+            <i class="fa fa-quote-left"></i><span id="text"></span>
         </div>
         <div class="quote-author">
         - <span id="author"></span>
         </div>
         <div class="buttons">
-        <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
-            <i class="fa fa-twitter"></i>
+        <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank" href="https://twitter.com/intent/tweet?">
+            <i class="fab fa-twitter"></i>
         </a>
         <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
-            <i class="fa fa-tumblr"></i>
+            <i class="fab fa-tumblr"></i>
         </a>
         <button class="button" id="new-quote">New quote</button>
         </div>
     </div>
     <div class="footer"> By 
-        <a href="https://codepen.io/hezag/">Emeka</a>
+        <a href="https://codepen.io/emeka08">Emeka</a>
     </div>
-        
-
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
